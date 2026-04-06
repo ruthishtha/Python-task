@@ -1,0 +1,78 @@
+#1.
+'''a=10
+b=5
+print("Add:",a+b)
+print("sub:",a-b)
+print("Multui:",a*b)
+print("Div:",a/b)
+print("Mod:",a%b)
+print("floor:",a//b)
+print("Expo:",a**b)'''
+#2.
+'''print("Rectangle")
+a=3
+b=2
+print("Area:",a*b)
+print("Perimeter:",2*(a+b))
+print("Square")
+a=4
+print("Area:",a**2)
+print("Perimeter:",2*a)
+print("Circle")
+r=7
+p=3.14#value of pie
+print("Area:",p*r**2)
+print("Perimetere:",2*p*r)'''
+#3.
+'''a=5
+b=3
+c=1
+print("avg of three numbers")
+print(a+b+c/3)'''
+#4.
+'''a=5
+b=5
+print("To find wether the given variable is equal or not:",a==b)
+a=9
+b=12
+print("To find the greater variable:",b>a)
+a=7
+b=13
+print("To find wether the variable is less than on equal to one another:",a<=b)'''
+#5.
+'''a=9
+print("To find the square root of the variable:",a**2)'''
+#6.
+'''p=6
+r=9
+t=15
+print("To find simple intrest:",(p*r*t)/100)
+p=5
+r=19
+n=3
+print("To find compound intrest:",p*(100+r/100)**n)'''
+#7.
+'''x=10
+print("assignment operator")
+x+=5 #x=15
+print(x)
+x-=3 #15-3
+print(x)
+x*=2 #12*2
+print(x)
+x/=4 #24/4
+print(x)
+x%=2 #0
+print(x)
+x**=3 #0
+print(x)'''
+#10.
+a=15
+print("To find cube root of the given variable:",a**3)
+
+
+                                                                                                                                                                                                                                     
+
+      
+
+
