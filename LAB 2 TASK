@@ -1,0 +1,88 @@
+#Task 1
+number_con=int(input("Enter the number:"))
+if number_con>0:
+    print("the number is positive")
+else:
+    print("the number is not positive")
+#Task 2
+number_con=int(input("Enter the number:"))
+if number_con%5==0:
+    print("The given number is divisible by five")
+else:
+    print("The given number is not divisible by five")
+#Task 3
+age_con=int(input("Enter the number:"))
+if age_con==age_con>=18:
+    print("person is eligible to vote")
+else:
+    print("person is not eligible to vote")
+#Task 4
+number_con=int(input("enter the given number:"))
+if number_con%2==0:
+    print("the given number is even")
+else:
+    print("the given number is odd")
+#Task 5
+x=int(input("Enter the number x:"))
+y=int(input("Enter the number y:"))
+if x>y and y<x:
+    print("the x is larger than y")
+else:
+    print("the y is larger than x")
+#Task 6
+year_con=int(input("Enter the year:"))
+if year_con%4==0:
+    print("the given year is leap year")
+else:
+    print("the given year is not leap year")
+#Task 8
+mark=int(input("Enter the mark:"))
+if mark>=20 and mark<=25:
+    print("pass,grade C")
+elif mark>=26 and mark<=30:
+    print("grade B")
+elif mark>=31 and mark<=40:
+    print("grade A")
+elif mark>=41 and mark<=50:
+    print("grade A+")
+else:
+    print("fail")
+#Task 7
+x=int(input("Enter the value of x:"))
+y=int(input("Enter the value of y:"))
+z=int(input("Enter the value of z:"))
+if x>y and z<x:
+    print("the x is larger one")
+elif y>x and z<y:
+    print("the y is larger one")
+else:
+    print("the z is larger one")
+#Task 9
+variable=input("Enter the value:")
+if variable=="a" or variable=="e" or variable=="i" or variable=="o"  or variable=="u":
+    print("the variable is vowels")
+else:
+    print("the variable is consonants")
+#Task 10
+a=int(input("Enter your number:"))
+operator=input("Enter your operator:")
+b=int(input("Enter your number:"))
+if operator=="+":
+    print(a+b)
+elif operator=="-":
+    print(a-b)
+else:
+    print("invalid")
+
+
+
+
+
+
+
+
+
+
+
+
+
