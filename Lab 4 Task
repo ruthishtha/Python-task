@@ -1,0 +1,57 @@
+#1.
+for i in range(1,15):
+    if i%2!=0:
+        continue
+    else:
+        print(i)
+#case conversion
+name="ruThishtha"
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.title())
+print(name.swapcase())
+#allingment and padding
+name="moushitha"
+print(name.center(19))
+print(name.ljust(27))
+print(name.rjust(45))
+print(name.zfill(17))
+#trimming and removng white space
+name="    jaghan    "
+print(name)
+print(name.strip())
+print(name.rstrip())
+print(name.lstrip())
+#search and replace
+name="Senthil kumar"
+print(name.find("h"))
+print(name.rfind("t"))
+print(name.index("i"))
+print(name.replace("n","%"))
+print(name.count("k"))
+print(name.startswith("e"))
+print(name.endswith("r"))
+#testing and contents
+z="Aadhyanth"
+print(z.isalpha())
+print(z.isdigit())
+print(z.isalnum())
+print(z.isspace())
+print(z.islower())
+print(z.isupper())
+print(z.istitle())
+#split and join
+name="kishore kumar"
+print(name.split("k"))
+print(name.partition(","))
+print("".join(["kishore","kumar"]))
+#slicing
+name="Ruthishtha"
+print(name[0:9])
+print(name[5:8])
+print(name[-6:])
+print(name[-5:-1])
+print(name[::3])
+print(name[::-2])
+
