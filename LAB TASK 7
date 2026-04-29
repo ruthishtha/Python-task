@@ -1,0 +1,77 @@
+#task 1
+import webbrowser as wb
+wb.open_new_tab("WWW.goolge.com")
+#task 2
+import webbrowser as wb
+wb.open_new_tab("WWW.youtube.com")
+#task 3
+import pywhatkit as py
+py.search("play music")
+#task 4
+import pywhatkit as py
+py.sendwhatmsg_instantly("9385724225","hii")
+#task 5
+import time as t
+print(t.ctime())
+#task 6
+import time as t
+print("Moushitha")
+t.sleep(15)
+print("ruthishtha")
+#task 7 
+import time as t
+print(t.ctime())
+#task 8
+import calendar as c
+print(c.calendar(2026))
+#task 9
+import calendar as c
+print(c.month(2026,4))
+#Task 10
+import calendar as c
+print(c.month(2026,4))
+#Task 11
+import numpy as np
+f=np.array([1,2,3,4,5,6])
+print(f)
+#task 12
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([7,8,9,10,11])
+print(a+b)
+#Task 13
+import numpy as np
+a=np.array([4,6,2,76,87])
+y=np.array([3,87,5,423,12])
+print(a*y)
+#task 14
+import numpy as np
+a=np.array([1,2,3,4,5])
+print(np.sum(a))
+#Task 15
+import numpy as np
+a=np.array([4,6,2,7,9])
+print(np.max(a))
+#Task 16
+from PIL import Image as i
+s=i.open("C:\\Users\\Livewire\\Downloads\\cartoon.jpeg")
+s.show()
+#task 17
+from PIL import Image as i
+s=i.open("C:\\Users\\Livewire\\Downloads\\cartoon.jpeg")
+f=s.resize(200,200)
+f.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
