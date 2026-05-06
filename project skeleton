@@ -1,2 +1,36 @@
 print(">>>vitalmap📍")
-items=["1.cardiology",2."dermatology",3."cardiology",4."oral helth",5."opthamology",6."otology",7."rhinology"8,"pediatrics",9."physiotherapy",10."gynaecology",11."gastroenterology",12."plastic surgery",13."exit....."],
+items=["1.cardiology","2.dermatology","3.cardiology","4.oral health","5.opthamology","6.otology","7.rhinology","8.pediatrics","9.physiotherapy","10.gynaecology","11.gastroenterology","12.plastic surgery","13.radiology","14.psychiatry","15.heptology","16.geriatrics","17.pulmonologist","18.hematologist","17.rheumatologist","18.nephrologist","19.veterinarian","20.oncologist","21.exit...."]
+for i in items:
+    print(i)
+    choice=int(input("Enter your choice:"))
+    if choice==1:
+        cardiology()
+    elif choice==2:
+        dermatology()
+    elif choice==3:
+        cardiology()
+    elif choice==4:
+        oral health()
+    elif choice==5:
+        opthamology()
+    elif choice==6:
+        otology()
+    elif choice==7:
+        rinology()
+    elif choice==8:
+        pediatrics()
+    elif choice==9:
+        physiotherapy()
+    elif choice==10:
+        gynaecology()
+    elif choice==11:
+        gastroenterology()
+    elif choice==12:
+        plastic surgery()
+    elif choice==13:
+        radiology()
+    elif choice==14:
+        psychiatry()
+    elif choice==15:
+        heptology()
+    elif choice==16:
