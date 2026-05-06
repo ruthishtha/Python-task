@@ -1,0 +1,22 @@
+#1.
+n=int(input("Enter your number:"))
+t=n
+a=n
+c=0
+while t>0:
+    t//=10
+    c+=1
+print(c)
+sums=0
+while a>0:
+    d=a%10
+    sums+=d**c
+    a//=10
+if n==sums:
+    print("it is an amstrong no")
+else:
+    print("not an amstrong no")
+#3.remove duplicates
+r=[1,5,4,8,3,8,9]
+r.remove(8)
+print(r)
