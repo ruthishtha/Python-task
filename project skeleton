@@ -1,5 +1,50 @@
-print(">>>vitalmap📍")
-items=["1.cardiology","2.dermatology","3.cardiology","4.oral health","5.opthamology","6.otology","7.rhinology","8.pediatrics","9.physiotherapy","10.gynaecology","11.gastroenterology","12.plastic surgery","13.radiology","14.psychiatry","15.heptology","16.geriatrics","17.pulmonologist","18.hematologist","17.rheumatologist","18.nephrologist","19.veterinarian","20.oncologist","21.exit...."]
+def cardiology():
+    print("your guide to cardiology")
+def dermatology():
+    print("your guide to drmatology")
+def cardiology():
+    print("your guide to cardiology")
+def oralhealth():
+    print("your guide to oralhealth")
+def opthamology():
+    print("your guide to opthamology")
+def otology():
+    print("your guide to otology")
+def rinology():
+    print("your guide to rinology")
+def pediatrics():
+    print("your guide to pediatrics")
+def physiotherapy():
+    print("your guide to physiotherapy")
+def gynaecology():
+    print("your guide to gynaecology")
+def gastroenterology():
+    print("your guide to gastroenterology")
+def plasticsurgery():
+    print("your guide to plasticsurgery")
+def radiology():
+    print("your guide to radiology")
+def psychiatry():
+    print("your guide to psychiatry")
+def heptology():
+    print("your guide to heptology")
+def geriatrics():
+    print("your guide to geriatrics")
+def pulmonologist():
+    print("your guide to pulmonologist")
+def hematologist():
+    print("your guide to hematologist")
+def rheumatology():
+    print("your guide to rheumatology")
+def nephrologist():
+    print("your guide to nephrologist")
+def veterinarian():
+    print("your guide to veterinarian")
+def oncology():
+    print("your guide to oncology")
+while True:
+Print(">>>vitalmap📍")
+items=["1.cardiology","2.dermatology","3.cardiology","4.oralhealth","5.opthamology","6.otology","7.rinology","8.pediatrics","9.physiotherapy","10.gynaecology","11.gastroenterology","12.plasticsurgery","13. radiology","14.psychiatry","15.heptology","16.geriatrics","17.pulmonologist","18.hematologist","19.rheumatology","20.nephrologist","21.veterinarian","22.oncology","23.exit...."]
 for i in items:
     print(i)
     choice=int(input("Enter your choice:"))
@@ -10,7 +55,7 @@ for i in items:
     elif choice==3:
         cardiology()
     elif choice==4:
-        oral health()
+        oralhealth()
     elif choice==5:
         opthamology()
     elif choice==6:
@@ -26,7 +71,7 @@ for i in items:
     elif choice==11:
         gastroenterology()
     elif choice==12:
-        plastic surgery()
+        plasticsurgery()
     elif choice==13:
         radiology()
     elif choice==14:
@@ -34,3 +79,20 @@ for i in items:
     elif choice==15:
         heptology()
     elif choice==16:
+        geriatrics()
+    elif choice==17:
+        pulmonologist()
+    elif choice==18:
+        hematologist()
+    elif choice==19:
+        rheumatology()
+    elif choice==20:
+        nephrologist()
+    elif choice==21:
+        veterinarian()
+    elif choice==22:
+        oncology()
+    elif choice==23:
+        break
+    else:
+        print("Enter a valid choice")
