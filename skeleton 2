@@ -1,0 +1,93 @@
+def cardiology():
+    print("your guide to cardiology 🫀E")
+def dermatology():
+    print("your guide to dermatology ✋")
+def oralhealth():
+    print("your guide to oralhealth 🦷")
+def opthamology():
+    print("your guide to opthamology 👁️")
+def otology():
+    print("your guide to otology 👂")
+def rhinology():
+    print("your guide to rhinology 👃")
+def pediatrics():
+    print("your guide to pediatrics 👶")
+def physiotherapy():
+    print("your guide to physiotherapy 🦴")
+def gynaecology():
+    print("your guide to gynaecology 🤰")
+def gastroenterology():
+    print("your guide to gastroenterology ")
+def plasticsurgery():
+    print("your guide to plasticsurgery ")
+def radiology():
+    print("your guide to radiology ☢️")
+def psychiatry():
+    print("your guide to psychiatry 🧠")
+def heptology():
+    print("your guide to heptology ")
+def geriatrics():
+    print("your guide to geriatrics")
+def pulmonologist():
+    print("your guide to pulmonologist")
+def hematologist():
+    print("your guide to hematologist")
+def rheumatology():
+    print("your guide to rheumatology")
+def nephrologist():
+    print("your guide to nephrologist")
+def veterinarian():
+    print("your guide to veterinarian")
+def oncology():
+    print("your guide to oncology")
+while True:
+print(">>>vitalmap📍<<<")
+items=["1.cardiology","2.dermatology","3.oralhealth","4.opthamology","5.otology","6.rhinology","7.pediatrics","8.physiotherapy","9.gynaecology","10.gastroenterology","11.plasticsurgery","12.radiology","13.psychiatry","14.heptology","15.geriatrics","16.pulmonologist","17.hematologist","18.rheumatology","19.nephrologist","20.veterinarian","21.oncology","22.exit...."]
+
+    choice=int(input("Enter your choice:"))
+    if choice==1:
+        cardiology()
+    elif choice==2:
+        dermatology()
+    elif choice==3:
+        oralhealth()
+    elif choice==4:
+        opthamology()
+    elif choice==5:
+        otology()
+    elif choice==6:
+        rhinology()
+    elif choice==7:
+        pediatrics()
+    elif choice==8:
+        physiotherapy()
+    elif choice==9:
+        gynaecology()
+    elif choice==10:
+        gastroenterology()
+    elif choice==11:
+        plasticsurgery()
+    elif choice==12:
+        radiology()
+    elif choice==13:
+        psychiatry()
+    elif choice==14:
+        heptology()
+    elif choice==15:
+        geriatrics()
+    elif choice==16:
+        pulmonologist()
+    elif choice==17:
+        hematologist()
+    elif choice==18:
+        rheumatology()
+    elif choice==19:
+        nephrologist()
+    elif choice==20:
+        veterinarian()
+    elif choice==21:
+        oncology()
+    elif choice==22:
+        break
+    else:
+        print("Enter a valid choice")
