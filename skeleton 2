@@ -40,10 +40,12 @@ def veterinarian():
     print("your guide to veterinarian")
 def oncology():
     print("your guide to oncology")
-while True:
-print(">>>vitalmap📍<<<")
-items=["1.cardiology","2.dermatology","3.oralhealth","4.opthamology","5.otology","6.rhinology","7.pediatrics","8.physiotherapy","9.gynaecology","10.gastroenterology","11.plasticsurgery","12.radiology","13.psychiatry","14.heptology","15.geriatrics","16.pulmonologist","17.hematologist","18.rheumatology","19.nephrologist","20.veterinarian","21.oncology","22.exit...."]
 
+while True:
+    print(">>>vitalmap📍<<<")
+    items=["1.cardiology","2.dermatology","3.oralhealth","4.opthamology","5.otology","6.rhinology","7.pediatrics","8.physiotherapy","9.gynaecology","10.gastroenterology","11.plasticsurgery","12.radiology","13.psychiatry","14.heptology","15.geriatrics","16.pulmonologist","17.hematologist","18.rheumatology","19.nephrologist","20.veterinarian","21.oncology","22.exit...."]
+    for i in items:
+        print(i)
     choice=int(input("Enter your choice:"))
     if choice==1:
         cardiology()
@@ -91,3 +93,4 @@ items=["1.cardiology","2.dermatology","3.oralhealth","4.opthamology","5.otology"
         break
     else:
         print("Enter a valid choice")
+
