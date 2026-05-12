@@ -1,0 +1,309 @@
+import webbrowser as wb
+import pywhatkit as py
+import urllib.parse
+def cardiology():
+    place=input("Enter your choice of place:")
+    print("your guide to cardiology 🫀E")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search=f"cardiologist+in+{place}"
+    print("showing cardiologist in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby cardiology hospitals in {place}:{details}"
+    py.sendwhatmsg_instantly(ph, msg)
+def dermatology():
+    place=input("Enter your choice of place:")
+    print("your guide to dermatology ✋")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" dermatologist in {place}"
+    print("showing dermatologist in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby dermatology hospitals in {place}:{details}"
+def oral_health():
+    place=input("Enter your choice of place:")
+    print("your guide to oral_health 🦷")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" oral_health in {place}"
+    print("showing oral_health in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby oral_health hospitals in {place}:{details}"
+def opthamology():
+    place=input("Enter your choice of place:")
+    print("your guide to opthamology 👁️")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" opthamology in {place}"
+    print("showing opthamology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby opthamology hospitals in {place}:{details}"
+def otology():
+    place=input("Enter your choice of place:")
+    print("your guide to otology 👂")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" otology in {place}"
+    print("showing otology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby otology hospitals in {place}:{details}"
+def rhinology():
+    place=input("Enter your choice of place:")
+    print("your guide to rhinology 👃")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" rhinology in {place}"
+    print("showing rhinology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby rhinology hospitals in {place}:{details}"
+def pediatrics():
+    place=input("Enter your choice of place:")
+    print("your guide to pediatrics 👶")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" pediatrics in {place}"
+    print("showing pediatrics in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby pediatrics hospitals in {place}:{details}"
+def physiotherapy():
+    place=input("Enter your choice of place:")
+    print("your guide to physiotherapy 🦴")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" physiology in {place}"
+    print("showing physiology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby physiotherapy hospitals in {place}:{details}"
+def gynaecology():
+    place=input("Enter your choice of place:")
+    print("your guide to gynaecology 🤰")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" gynaecology in {place}"
+    print("showing gynaecology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby gynaecology hospitals in {place}:{details}"
+def gastroenterology():
+    place=input("Enter your choice of place:")
+    print("your guide to gastroenterology ")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" gastroenterology in {place}"
+    print("showing gastroenterology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby gastroenterology hospitals in {place}:{details}"
+def plastic_surgery():
+    place=input("Enter your choice of place:")
+    print("your guide to plastic_surgery ")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" plastic_surgery in {place}"
+    print("showing plastic_surgery in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby plastic_surgery hospitals in {place}:{details}"
+def radiology():
+    place=input("Enter your choice of place:")
+    print("your guide to radiology ☢️")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" radiology in {place}"
+    print("showing radiology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby radiology hospitals in {place}:{details}"
+def psychiatry():
+    place=input("Enter your choice of place:")
+    print("your guide to psychiatry 🧠")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" psychiatry in {place}"
+    print("showing psychiatry in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby psychiatry hospitals in {place}:{details}"
+def heptology():
+    place=input("Enter your choice of place:")
+    print("your guide to heptology ")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" heptology in {place}"
+    print("showing heptology in",(place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby heptology hospitals in {place}:{details}"
+def geriatrics():
+    place=input("Enter your choice of place:")
+    print("your guide to geriatrics")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" geriatrics in {place}"
+    print("showing geriatrics in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby geriatrics hospitals in {place}:{details}"
+def pulmonology():
+    place=input("Enter your choice of place:")
+    print("your guide to pulmonology")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" pulmonology in {place}"
+    print("showing pulmonology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby pulmonology hospitals in {place}:{details}"
+def hematology():
+    place=input("Enter your choice of place:")
+    print("your guide to hematology")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" hematology in {place}"
+    print("showing hematology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby hematology hospitals in {place}:{details}"
+def rheumatology():
+    place=input("Enter your choice of place:")
+    print("your guide to rheumatology")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" rheumatology in {place}"
+    print("showing rheumatology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby rheumatology hospitals in {place}:{details}"
+def nephrology():
+    place=input("Enter your choice of place:")
+    print("your guide to nephrology")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" nephrology in {place}"
+    print("showing nephrology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby nephrology hospitals in {place}:{details}"
+def veterinarian():
+    place=input("Enter your choice of place:")
+    print("your guide to veterinarian")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" veterinarian in {place}"
+    print("showing veterianarian in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby veterinarian hospitals in {place}:{details}"
+def oncology():
+    place=input("Enter your choice of place:")
+    print("your guide to oncology")
+    wb.open_new_tab(f"https://www.google.com/maps/search/{place}")
+    search = f" oncology in {place}"
+    print("showing oncology in", (place))
+    wb.open_new_tab(f"https://www.google.com/maps/search/{search}")
+    details = (f"https://www.google.com/maps/search/{search}")
+    maps_link = f"https://www.google.com/maps/search/{urllib.parse.quote(search)}"
+    {maps_link}
+    ph = input("Enter your phone(+91):")
+    msg = f"Nearby oncology hospitals in {place}:{details}"
+
+while True:
+    print(">>>vitalmap📍<<<")
+    items=["1.cardiology","2.dermatology","3.oral_health","4.opthamology","5.otology","6.rhinology","7.pediatrics","8.physiotherapy","9.gynaecology","10.gastroenterology","11.plastic_surgery","12.radiology","13.psychiatry","14.heptology","15.geriatrics","16.pulmonology","17.hematology","18.rheumatology","19.nephrology","20.veterinarian","21.oncology","22.exit...."]
+    for i in items:
+        print(i)
+    choice=int(input("Enter your choice:"))
+    if choice==1:
+        cardiology()
+    elif choice==2:
+        dermatology()
+    elif choice==3:
+        oral_health()
+    elif choice==4:
+        opthamology()
+    elif choice==5:
+        otology()
+    elif choice==6:
+        rhinology()
+    elif choice==7:
+        pediatrics()
+    elif choice==8:
+        physiotherapy()
+    elif choice==9:
+        gynaecology()
+    elif choice==10:
+        gastroenterology()
+    elif choice==11:
+        plastic_surgery()
+    elif choice==12:
+        radiology()
+    elif choice==13:
+        psychiatry()
+    elif choice==14:
+        heptology()
+    elif choice==15:
+        geriatrics()
+    elif choice==16:
+        pulmonology()
+    elif choice==17:
+        hematology()
+    elif choice==18:
+        rheumatology()
+    elif choice==19:
+        nephrology()
+    elif choice==20:
+        veterinarian()
+    elif choice==21:
+        oncology()
+    elif choice==22:
+        break
+    else:
+        print("Enter a valid choice")
