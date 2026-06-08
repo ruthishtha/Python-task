@@ -1,0 +1,26 @@
+# pg 1
+from tkinter import *
+from tkinter import messagebox
+root = Tk()
+root.title("page one")
+label = Label(root, text="page one")
+label.place(x=20, y=30)
+def next_page():
+    messagebox.showinfo("Hello", "next page")
+    root.destroy()
+button=Button (root,text="click me",command=next_page)
+button.place(x=20,y=70)
+root.mainloop()
+
+
+# pg 2
+from tkinter import *
+class page:
+    def __init__(self):
+        root=Tk()
+        root.geometry("500x500")
+        root.title("Page 2")
+        label=Label(root,text="Page 2",font=("arial,20"),fg="black",bg="white")
+        label.place(x=10,y=10)
+        button=Button(root,text="click me")
+        root.mainloop()
